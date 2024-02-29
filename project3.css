@@ -1,0 +1,76 @@
+*
+{
+   margin: 0%;
+   padding: 0%;
+   font-family: sans-serif;
+   box-sizing: border-box;
+
+}
+body{
+    background-color: darkblue;
+    background-size: bottom;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+    color: white ; 
+    padding: 1.0%;
+    position: relative;
+}
+.content {
+    top:10%;
+    position: absolute;
+    color: white;
+}
+.img{
+    float: left;
+    height: 300px;
+    width: 400px;
+    padding-right: 20px;
+}
+#giveaway {
+    font-size: 60px; 
+    font-weight: 500;
+    
+    
+}
+#giveaway span {
+    color: darkblue;
+}
+.content button {
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    padding: 12px 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transform: translateY(-40%);
+
+};
+
+#lorem{
+    padding-top: 50px;
+    
+
+}
+.launch-time {
+    display: flex;
+    padding: 50px;
+
+}
+.launch-time div {
+    flex-basis: 100px;
+}
+.launch-time div p {
+    font-size: 60px;
+    margin-bottom: 0px;
+    
+
+
+}
